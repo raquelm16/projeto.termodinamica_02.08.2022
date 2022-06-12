@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #127475;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer{
+    background-color: #127475;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align:center;
+}
+
+footer li {
+    list-style: none;
+}
+
+nav{
+    background-color: #0E9594;
+    padding: 1rem;
+}
+
+nav ul{
+    display: flex;
+    text-align: center;
+}
+
+nav li{
+    list-style: none;
+    padding: 0.5rem;
+}
+
+.mark{
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+li a{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: x-large;
+    transition: color 0.2s;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: white;
+}
+
+li a:hover{
+    background-color: #F2542D;
+}
+
+.container{
+    width: 50vw;
+    margin: auto;
+    border: 0.5rem solid #A4402D;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.editorial{
+    width: 55vw;
+    margin: auto;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.img{
+    display:flex;
+    border: 0.5rem solid #A4402D;
+}
+
+.editorial h3{
+    padding:60px;
+}
+
+.editorial p{
+    margin: auto;
+}
+
+.container h2{
+    background-color: #a3d6d6;
+    color: #A4402D;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.container input{
+    width: 25vw;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    outline: none;
+    border: 2px solid #A4402D;
+}
+
+.container input:hover{
+    background-color: white;
+}
+
+.container button{
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background-color: #F2542D;
+    color: white;
+    border-radius: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container button:hover{
+    background-color: #A4402D;
+}
+
+
+.list{
+    width: 100%;
+}
+
+.list table{
+    width: 100%;
+}
+
+.list table th{
+    background-color: #F2542D;
+    padding: 1rem;
+    color: white;
+    border-radius: 5px;
+}
+
+.list table td{
+    color: #A4402D;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1rem;
+    margin: 2px;
+    border: 2px solid #A4402D;
+    border-radius: 5px;
+    padding-bottom: 1rem;
+}
