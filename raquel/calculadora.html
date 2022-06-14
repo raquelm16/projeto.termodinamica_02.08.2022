@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/icon.png">
+    <title>Projeto Termodinâmica</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="./css/calculadora.css">
+</head>
+<body>
+    <header>
+        <h1>Projeto Termodinâmica</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Editorial</a></li>
+            <li><a href="./leis.html">Leis</a></li>
+            <li><a href="./cotidiano.html">Aplicações no cotidiano</a></li>
+            <div class="mark">
+            <li><a href="./calculadora.html">Calculadora</a></li>
+        </div>
+            <li><a href="./maquina.html">Máquina</a></li>
+            <li><a href="./referencias.html">Referências</a></li>
+            <li><a href="./errosdeexecução.html">Erros</a></li>
+        </ul>
+    </nav>
+    
+    <div class="pl">
+    <h2>Primeira Lei da Termodinâmica (ΔU = Q - t)</h2>
+    <input type=" number" id="q1" placeholder="Energia transferida">
+    <br><br>
+    <input type="number" id="t1" placeholder="Trabalho">
+    <br><br>
+  <input type="number" id="res1" placeholder="Variação de Energia" readonly>
+    <br><br>
+  <button id="calc" onclick="primeiraLei()">Calcular</button>
+  <button id="limp" onclick="Limpar1()">Limpar</button>
+   </div>
+  
+   <div class="sl">
+    <h2>Segunda Lei da Termodinâmica (Q = t + ΔU)</h2>
+    <input type=" number" id="t2" placeholder="Trabalho">
+    <br><br>
+    <input type="number" id="u2" placeholder="Energia interna">
+    <br><br>
+  <input type="number" id="res2" placeholder="Energia transferida" readonly>
+    <br><br>
+  <button id="calc" onclick="segundaLei()">Calcular</button>
+  <button id="limp" onclick="Limpar2()">Limpar</button>
+   </div>
+
+   <div class="ef">
+    <h2>Eficiência (T/Q)</h2>
+    <input type=" number" id="t3" placeholder="Trabalho">
+    <br><br>
+    <input type="number" id="q3" placeholder="Energia transferida">
+    <br><br>
+  <input type="number" id="res3" placeholder="Energia transferida" readonly>
+    <br><br>
+  <button id="calc" onclick="efLei()">Calcular</button>
+  <button id="limp" onclick="Limpar3()">Limpar</button>
+   </div>
+
+    
+    <footer>
+        <ul>
+            <li><a href="https://github.com/raquelm16/projeto.termodinamica_02.08.2022">Repositório</a></li>
+    </ul>
+    </footer>
+    <script src="./js/calculadora.js"></script>
+</body>
+</html>
