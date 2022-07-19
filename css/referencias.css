@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #dee3fd;
 }
@@ -83,6 +84,57 @@ li a:hover{
         border-radius: 16px;
         padding: 16px;
         margin-bottom: 2.5%;
+}
+
+.ref{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 3rem;
+    color: rgb(133,152,255);
+}
+
+.site{
+    padding: 8px;
+    align-items: center;
+    margin: auto;
+    width: 15%;
+    margin-top: 10px;
+}
+.video{
+    padding: 8px;
+    align-items: center;
+    margin: auto;
+    width: 15%;
+}
+button{
+    background-color: #DB5F6E;
+    height: 60px;
+    width: 200px;
+    border: 0;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 200ms ease;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+ 
+button:hover {
+    transform: scale(1.1);
+}
+
+button#equal {
+    height: 130px;
+}
+
+th{
+    border:none;
+}
+
+td{
+    text-align: center;
 }
 
 footer ul li a{
