@@ -1,0 +1,257 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dee3fd;
+    width:100%;
+}
+
+header{
+    background-color: #9cabff;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer{
+    background-color: #9cabff;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align:center;
+    margin-top: 4rem;
+}
+
+footer li {
+    list-style: none;
+}
+
+ul img{
+    padding:10px;
+}
+
+.logo{
+    text-align: center;
+}
+
+nav{
+    background-color: rgb(133,152,255);
+    padding: 1rem;
+}
+
+nav ul{
+    display: flex;
+    text-align: center;
+}
+
+nav li{
+    list-style: none;
+    padding: 0.5rem;
+}
+
+.mark{
+    margin-top: 10px;
+}
+
+li a{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: x-large;
+    transition: color 0.2s;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: white;
+}
+
+li a:hover{
+    background-color: #5376c1;
+}
+
+.editorial{
+    width: 55vw;
+    margin: auto;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.img{
+    display:flex;
+    border: 0.5rem solid #DB5F6E;
+}
+
+table{
+    border-radius: 10px;
+    border: 5px solid #DB5F6E;
+    width: 500px;
+    padding: 3px;
+    margin: 60px;
+    background-color: #ffffff;
+}
+
+th{
+    border:none;
+}
+
+td{
+    text-align: center;
+    color: #5376C1;
+}
+
+td a{
+    text-decoration:solid;
+    font-weight: bold;
+    color: #F68395;
+}
+
+td a:hover{
+    color: #5376C1;
+}
+
+.editorial h3{
+    padding:60px;
+}
+
+.editorial p{
+    margin: auto;
+}
+
+footer ul li a{
+    margin-top: 5px;
+    color:#fff;
+    font-size:medium;
+}
+
+footer ul li a:hover{
+    background-color: #5376c1;
+}
+
+.cotidiano{
+    margin: auto;
+    margin-bottom: 16px;
+    width: 63%;
+    border:  4px solid #DB5F6E;
+    border-radius: 16px;
+    padding: 20px;
+    margin-top: 2rem;
+    margin-block: 2rem;
+}
+
+.cot{
+    padding: 10px;
+}
+
+.eficiencia{
+    position: absolute;
+    padding:20px;
+    z-index:4;
+}
+
+.eficiencia button{
+    border-radius: 0px;
+    height: 40px;
+    width:90px;
+    text-align: center;
+    background-color: #702a45;
+    color: white;
+    font-size: medium;
+}
+
+.lei1, .lei2{
+    text-align: center;
+    color: rgb(133,152,255);
+    margin-top: 3rem;
+}
+
+.paragrafo1, .paragrafo2{
+        margin: auto;
+        margin-top: 16px;
+        margin-bottom: 2.5%;
+        width: 60%;
+        border:  4px solid #DB5F6E;
+        border-radius: 16px;
+        padding: 16px;
+}
+
+li{
+    font-size:small;
+}
+
+.bibliografia{
+    color: #702a45;
+    text-align: center;
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 60%;
+    border:  4px solid #DB5F6E;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+
+.descrição{
+    margin: auto;
+    width: 45vw;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.descrição table{
+    padding:20px;
+}
+
+.descrição th{
+    display: block;
+    margin-bottom: 15px;
+}
+
+.descrição td{
+    width: 10vw;
+    border: 0px;
+    display: flex;
+}
+
+.descrição video{
+    border: 2px solid #DB5F6E;
+    display: block;
+}
+
+.ref{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 4rem;
+    color: rgb(133,152,255);
+}
+
+.site{
+    padding: 8px;
+    align-items: center;
+    margin: auto;
+    width: 15%;
+    margin-top: 10px;
+}
+
+
+button{
+    background-color: #DB5F6E;
+    height: 60px;
+    width: 200px;
+    border: 0;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 200ms ease;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
