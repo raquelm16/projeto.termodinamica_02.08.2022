@@ -6,7 +6,7 @@
 [![Generic badge](https://img.shields.io/badge/JavaScript-pink.svg)]()
 [![Generic badge](https://img.shields.io/badge/CSS-pink.svg)]()
 
-<br><br>
+<br>
 Esse trabalho foi um projeto do corpo docente chamado SA (Situação de Aprendizagem) que procurou juntar o nosso aprendizado em Ciências da Natureza (leis da termodinâmica) com Programação (criação de um site).
 
 O site pode ser usado para:
