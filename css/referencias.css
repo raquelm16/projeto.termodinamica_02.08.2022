@@ -19,7 +19,7 @@ footer{
     padding-top: 2rem;
     padding-bottom: 2rem;
     text-align:center;
-    margin-top: 262px;
+    margin-top: 4rem;
 }
 
 footer li {
@@ -80,7 +80,7 @@ li a:hover{
         margin-top: 16px;
         margin-bottom: 16px;
         width: 60%;
-        border:  4px solid #DB5F6E;
+        border: 4px solid #DB5F6E;
         border-radius: 16px;
         padding: 16px;
         margin-bottom: 2.5%;
@@ -90,7 +90,7 @@ li a:hover{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 30px;
-    margin-top: 3rem;
+    margin-top: 4rem;
     color: rgb(133,152,255);
 }
 
