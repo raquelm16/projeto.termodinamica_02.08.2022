@@ -210,6 +210,14 @@ li{
     margin-bottom: 15px;
 }
 
+.normal{
+    font-weight: normal;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
 .descrição td{
     width: 10vw;
     border: 0px;
