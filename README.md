@@ -7,7 +7,7 @@
 [![Generic badge](https://img.shields.io/badge/CSS-pink.svg)]()
 
 <br>
-Esse trabalho foi um projeto do corpo docente chamado SA (Situação de Aprendizagem) que procurou juntar o nosso aprendizado em Ciências da Natureza (leis da termodinâmica) com Programação (criação de um site).
+Esse trabalho foi um projeto atribuído pelo corpo docente atráves da SA (Situação de Aprendizagem), que procurou juntar o nosso aprendizado em Ciências da Natureza (leis da termodinâmica) com Programação (criação de um site).
 
 O site pode ser usado para:
 - Cálculos termodinâmicos;
@@ -18,4 +18,4 @@ O site pode ser usado para:
 <br>
 
 # Colaboradores
-[![Generic badge]()]()
+[![Raquel Moreira]()](https://www.oi.com.br/)
