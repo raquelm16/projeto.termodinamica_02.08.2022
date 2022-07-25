@@ -17,6 +17,8 @@ O site pode ser usado para:
 - Criar uma máquina termodinâmica;
 - Entender sobre suas leis e aplicações no cotidiano.
 
+[![Generic badge](https://img.shields.io/badge/LINK-blue.svg)](https://projetotermodinamica.netlify.app/cotidiano.html)
+
 <br>
 
 <img width="40px"  src="https://user-images.githubusercontent.com/100868145/180833515-ad9b0ac7-fa93-43f6-865e-fda752c2a591.png" width="40" height="40">
