@@ -59,14 +59,14 @@
 
 #display {
     margin: 0 10px;
+    margin-bottom: 20px;
+    margin-right: 74px;
     height: 130px;
     width: auto;
-    max-width: 270px;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
     font-size: 30px;
-    margin-bottom: 20px;
     overflow-x: scroll;
 }
 
