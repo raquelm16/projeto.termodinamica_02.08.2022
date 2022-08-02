@@ -50,7 +50,14 @@ nav li{
 }
 
 .mark{
-    margin-top: 10px;
+    /* margin-top: 10px; */
+    background-color: #6185d3;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 5px;
+    align-items: center;
+    display: flex;
+    padding: 0.5rem;
 }
 
 li a{
