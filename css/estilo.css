@@ -145,6 +145,11 @@ footer ul li a:hover{
     padding: 20px;
     margin-top: 2rem;
     margin-block: 2rem;
+    font-size:20px;
+}
+.cotidiano li{
+    font-size:16px;
+    margin-top: 10px;
 }
 
 .cot{
