@@ -1,6 +1,6 @@
 <h1 align="center">Projeto Termodinâmica</h1>
 
-<img width="60" height="60" src="https://user-images.githubusercontent.com/100868145/180835363-944623ae-b50d-43bc-9ef3-6a77b051a410.png">
+<img width="60" height="60" src="./img/">
 
 [![Generic badge](https://img.shields.io/badge/Concluído-green.svg)]()
 <br>
